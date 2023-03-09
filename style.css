@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #1a2334 20%, #3480b7 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    gap: 32px;
+    background-image: linear-gradient(to right, #1a2334 11%, #3480b7 85.61%);
+}
+
+.cabecalho-logo {
+    width: 70px;
+    border: 1px solid;
+    border-radius: 100px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.cabecalho-nav-item {
+    margin-left: 25px;
+    margin-right: 0;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF2E7;
+}
+
+
+.conteudo-principal {
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    color: #e7f8ff;
+    margin-bottom: 20px;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #c4daec;
+}
+
+.conteudo-principal-botao {
+    background-color: #c4d8ec;
+    border: none;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 27px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #23232f;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: #557592;
+}
+
+.conteudo-gatinho {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 50px;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    font-weight: 250;
+    color: #d0e3f2;
+}
+
+.conteudo-secundario-lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #e1effa;
+}
+
+.rodape {
+    padding: 32px;
+    background-color: #1a2334;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 67px;
+    display: block;
+    margin: 0 auto;
+}
